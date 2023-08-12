@@ -1,0 +1,31 @@
+.dashboard-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+}
+.details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 25px;
+  width: 200px;
+  background-color: rgb(213, 209, 209);
+}
+.stock {
+  color: rgb(28, 207, 28);
+  font-size: 30px;
+  font-weight: 800;
+}
+.delivered {
+  color: rgb(246, 228, 35);
+  font-size: 30px;
+  font-weight: 800;
+}
+.low {
+  color: red;
+  font-size: 30px;
+  font-weight: 800;
+}

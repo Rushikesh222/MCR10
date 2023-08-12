@@ -1,7 +1,7 @@
-import { Dashboard } from "../Component/Dashboard";
+import { CardComponent } from "../Component/CardComponet";
 import { LeftSide } from "../Component/Leftside";
-import "./Page.css";
-export const Home = () => {
+
+export const Department = () => {
   return (
     <div className="container">
       <div className="leftside">
@@ -9,7 +9,7 @@ export const Home = () => {
       </div>
 
       <div className="invintory">
-        <Dashboard />
+        <CardComponent />
       </div>
     </div>
   );

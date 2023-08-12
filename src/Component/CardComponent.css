@@ -1,0 +1,15 @@
+.card-component {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 50px;
+}
+.dept-button {
+  width: 250px;
+  height: 150px;
+  border-radius: 25px;
+  border: none;
+  font-size: 25px;
+  font-weight: 700;
+  cursor: pointer;
+}
