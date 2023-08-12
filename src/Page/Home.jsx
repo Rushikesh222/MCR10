@@ -1,11 +1,11 @@
 import { Dashboard } from "../Component/Dashboard";
-import { LeftSide } from "../Component/Leftside";
+import { Leftside } from "../Component/Leftside";
 import "./Page.css";
 export const Home = () => {
   return (
     <div className="container">
       <div className="leftside">
-        <LeftSide />
+        <Leftside />
       </div>
 
       <div className="invintory">

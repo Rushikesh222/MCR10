@@ -1,6 +1,6 @@
 import { NavLink } from "react-router-dom";
 import "./leftside.css";
-export const LeftSide = () => {
+export const Leftside = () => {
   return (
     <div className="left-nav">
       <div className="links">

@@ -1,11 +1,11 @@
 import { CardComponent } from "../Component/CardComponet";
-import { LeftSide } from "../Component/Leftside";
+import { Leftside } from "../Component/Leftside";
 
 export const Department = () => {
   return (
     <div className="container">
       <div className="leftside">
-        <LeftSide />
+        <Leftside />
       </div>
 
       <div className="invintory">

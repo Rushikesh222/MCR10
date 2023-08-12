@@ -1,14 +1,14 @@
 import { useState } from "react";
 import { useParams } from "react-router-dom";
 import { useData } from "../Context/CardContext";
-import { LeftSide } from "../Component/Leftside";
+import { Leftside } from "../Component/Leftside";
 import { Filter } from "../Component/Filter";
 export const Product = () => {
   const { state, dispatch } = useData();
 
   return (
     <div>
-      <LeftSide />
+      <Leftside />
       <div>
         <Filter />
       </div>
